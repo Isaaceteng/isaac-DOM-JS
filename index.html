@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Class 1</title>
+	<style type="text/css">
+		h1{
+			color: lightgreen;
+		}
+
+		button{
+			color: blue;
+		
+
+		}
+	</style>
+</head>
+<body>
+<h1>Welcome to your first JavaScript Class</h1>
+</body>
+<script>
+	document.write("<h3>Hello! the day is bright</h3>");
+	document.write("<h4>This is Ikeja</h4>");
+	document.write('<button> Hello </button>');
+	document.write('<br>');
+
+	document.write("<h2>Medical Doctor Profile</h2>");
+	document.write("<h4>Name: Dr. Micheal Olu</h4>");
+	document.write("<h4>Email: michealolu@yahoo.com</h4>");
+	document.write("<h4>Experience: 5 Years</h4>");
+	document.write("<h4>Hospital: Lagoon Hospital, Ikeja</h4>");
+	document.write('<br>');
+	document.write('<br>');
+	var firstName = "Donald";
+	var surName = "Trump";
+	var age = 74;
+	document.write(firstName + "<br>");
+	document.write(surName + "<br>");
+	document.write(age);
+	document.write('<br>');
+	document.write("Concatenation for text only");
+	document.write(firstName + " " + surName + age);
+	document.write('<br>');
+
+	var sentenceOne = 'I love playing table-tennis';
+	var comma = ',';
+	var sentenceTwo = 'I also love swimming';
+	document.write(sentenceOne + comma + " "+ sentenceTwo +"<br>");
+
+	// Area of Triangle is 1/2* b* h
+	var num1 = 1; 
+	var num2 = 2;
+	var b = 25;
+	var	h = 20
+	document.write("Area of the Triangle is" + " " + num1/num2 * b * h + "<br>")
+
+	var power = Math.pow(5,2);
+	document.write (power + "<br>")
+
+
+	// Comparison Operators
+	var value1 = 250;
+	var value2 = 500;
+	document.write(value2>value1 + "<br>");
+
+	var lagos = true;
+	var ikeja = true;
+	var ghana = false;
+	document.write(lagos && ikeja);
+	document.write("<br>");
+	document.write(lagos && ghana);
+	document.write("<br>");
+	// electronicItems
+	// prices
+	var electronicItems = ["Tv","DVD", "Radio", "Blender", "Electric Kettle"];
+	var prices = [10000, 200, 100, 30, 20,450,540,678,780,689];
+	
+	for(var i = 0; i<prices.length; i++){
+		document.write(prices[i] * 7 + "<br>");
+	}
+
+	for( var i = 0; i <electronicItems.length; i++){
+		document.write(electronicItems[i] + "<br>");
+	}
+	document.write(electronicItems.length + "<br>");
+
+	document.write(electronicItems);
+	document.write("<br>");
+	document.write(prices[i] *7 + "<br>");
+	document.write("<br>");
+
+
+	for(var i = 1; i<1001; i++)
+	{
+		document.write(i+ "<br>");
+	}
+
+	var x = 1;
+	while (x<201){ x + "<br>"; x++;
+	}
+	document.write
+</script>
+</html>
